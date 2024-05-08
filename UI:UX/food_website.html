@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Business App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <img src="images/logo.png" alt="Food App Logo">
+    <nav>
+        <ul>
+            <li><a href="#" id="home">Home</a></li>
+            <li><a href="#" id="menu">Menu</a></li>
+            <li><a href="#" id="orders">Orders</a></li>
+            <li><a href="#" id="profile">Profile</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="banner">
+    <img src="images/promotion_banner.png" alt="Promotional Banner">
+</div>
+
+<div class="search-bar">
+    <input type="text" placeholder="Search for dishes or restaurants" id="search">
+    <button onclick="searchDishes()">Search</button>
+</div>
+
+<div class="categories">
+    <h2>Categories</h2>
+    <h4>Please select the cusine</h4>
+    <ul>
+        <li><a href="#" id="italian">Italian</a></li>
+        <li><a href="#" id="chinese">Chinese</a></li>
+        <li><a href="#" id="desserts">Desserts</a></li>
+    </ul>
+</div>
+
+<div class="featured-dishes" id="featured-dishes">
+    <div class="dish-container" id="dish-container">
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "categories": {
+    "Italian": ["Pizza", "Pasta", "Risotto"],
+    "Chinese": ["Fried Rice", "Noodles", "Dim Sum"],
+    "Desserts": ["Ice Cream", "Cake", "Pudding"]
+  },
+  "dishes": {
+    "Pizza": {"price": 10.99, "image": "images/pizza.jpeg"},
+    "Pasta": {"price": 8.99, "image": "images/pasta.jpeg"},
+    "Risotto": {"price": 12.99, "image": "images/risotto.jpeg"},
+    "Fried Rice": {"price": 7.99, "image": "images/fried-rice.jpeg"},
+    "Noodles": {"price": 6.99, "image": "images/noodles.jpeg"},
+    "Dim Sum": {"price": 9.99, "image": "images/dim-sum.jpg"},
+    "Ice Cream": {"price": 4.99, "image": "images/ice-cream.jpeg"},
+    "Cake": {"price": 5.99, "image": "images/cake.jpeg"},
+    "Pudding": {"price": 3.99, "image": "images/pudding.jpeg"}
+  }
+}

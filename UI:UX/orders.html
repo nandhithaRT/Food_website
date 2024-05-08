@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0;">
+
+<h1 style="text-align: center; margin-top: 20px;">Orders</h1>
+
+<div>
+    <h2 style="text-align: center; margin-top: 20px;">Order Summary</h2>
+    <ul id="order-summary" style="list-style-type: none; padding: 0; margin: 0; text-align: center;"></ul>
+</div>
+
+<div style="text-align: center; margin-top: 20px;">
+    <h2>Place an Order</h2>
+    <form id="order-form" style="margin: auto; width: 200px;">
+        <label for="dish">Select Dish:</label><br>
+        <select id="dish" style="padding: 10px; border-radius: 10px; width: 100%;">
+            <option value="Pizza">Pizza</option>
+            <option value="Pasta">Pasta</option>
+            <option value="Risotto">Risotto</option>
+            <option value="Fried Rice">Fried Rice</option>
+            <option value="Noodles">Noodles</option>
+            <option value="Dim Sum">Dim Sum</option>
+            <option value="Ice Cream">Ice Cream</option>
+            <option value="Cake">Cake</option>
+            <option value="Pudding">Pudding</option>
+        </select><br><br>
+        <label for="quantity">Quantity:</label><br>
+        <input type="number" id="quantity" min="1" value="1" style="padding: 10px; border-radius: 10px; width: 100%;"><br><br>
+        <button type="submit" style="padding: 10px 20px; border-radius: 10px; background-color: #333; color: #fff; border: none;">Add to Order</button>
+    </form>
+</div>
+
+<a href="food_website.html" style="display: block; text-align: center; padding: 10px; margin: 20px auto; width: 200px; background-color: #333; color: #fff; text-decoration: none; border-radius: 20px;">Go to Home</a>
+
+</body>
+</html>
